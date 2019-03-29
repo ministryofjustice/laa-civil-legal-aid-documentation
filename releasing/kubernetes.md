@@ -34,4 +34,4 @@
 
 :memo: The `<name-space-name>` is the applications kubernetes namespace. `kubectl get namespaces | grep laa-cla` gets you a list of laa-cla namespaces
 
-:memo: The `deployment>`> is the kubernetes deployment name. `kubectl -n <namespace> get deployments` gets you the deployment name
+:memo: The `<deployment>`> is the kubernetes deployment name. `kubectl -n <namespace> get deployments` gets you the deployment name
