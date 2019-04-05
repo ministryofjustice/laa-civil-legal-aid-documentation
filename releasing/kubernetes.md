@@ -2,7 +2,7 @@
 
 ## Releasing to non-production
 
-1. Wait for [the Docker build to complete on CircleCI](https://circleci.com/gh/ministryofjustice/<repo_name>) for the feature branch.
+1. Wait for the Docker build to complete on CircleCI (`https://circleci.com/gh/ministryofjustice/<repo_name>`) for the feature branch.
 1. Approve the pending staging deployment on CircleCI.
     [Watch the how-to video:](https://www.youtube.com/watch?v=9JovuQK-XnA)<br/>
     [![How to approve staging deployments](https://img.youtube.com/vi/9JovuQK-XnA/1.jpg)](https://www.youtube.com/watch?v=9JovuQK-XnA)
@@ -17,7 +17,7 @@
 
 1. Please make sure you tested on a non-production environment before merging.
 1. Merge your feature branch pull request to `master`.
-1. Wait for [the Docker build to complete on CircleCI](https://circleci.com/gh/ministryofjustice/<repo_name>/tree/master) for the `master` branch.
+1. Wait for the Docker build to complete on CircleCI (`https://circleci.com/gh/ministryofjustice/<repo_name>/tree/master`) for the `master` branch.
 1. Approve the pending staging deployment on CircleCI (see 'Releasing to non-production above' video for more info).
 1. Approve the pending production deployment on CircleCI.
 1. :rotating_light: Unfortunately, our deployment process does not _yet_ fail the build if the deployment fails.
